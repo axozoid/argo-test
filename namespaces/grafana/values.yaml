@@ -1,7 +1,8 @@
 grafana:
     ingress:
         enabled: "true"
-        hosts: argocd-grafana.hazelcast.com
+        hosts: 
+          - argocd-grafana.hazelcast.com
         annotations:
             kubernetes.io/ingress.class: "argocd"
     replicas: 1
