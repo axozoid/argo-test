@@ -1,3 +1,4 @@
-replicas: 2
-annotations:
-  foo: bar
+grafana:
+    replicas: 2
+    annotations:
+        foo: bar
