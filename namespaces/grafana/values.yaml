@@ -2,4 +2,3 @@ grafana:
     replicas: 2
     annotations:
         foo: bar
-    securityContext: {}
