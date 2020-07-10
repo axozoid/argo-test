@@ -1,1 +1,6 @@
-# placeholder
+nginx-ingress:
+    controller:
+        ingressClass: argocd
+        scope:
+            enabled: enabled
+            namespace: argocd-test-grafana
