@@ -2,6 +2,4 @@ grafana:
     replicas: 2
     annotations:
         foo: bar
-    securityContext:
-        fsGroup: 472
-        runAsUser: 472
+    securityContext: {}
